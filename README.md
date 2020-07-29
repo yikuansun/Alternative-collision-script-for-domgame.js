@@ -10,8 +10,9 @@ An alternative collision script to the built-in one in <a href="https://github.c
 <li>Does not take margin, padding, or border into account (you'll have to use hitboxes for those)</li>
 
 # Usage
+Install by downloading the repository.
 Be sure to put the script tag for this library <i>after</i> that of domgame.js, but before the main scripts, as shown:
 <pre><script src="domgame.js"></script>
 <script src="domgamecollision.js"></script>
 <script src="main.js"></script></pre>
-Install by downloading the repository.
+Usage is the exact same as the built-in one: <code>player.rectCollision(brick) //returns true/false</code> or <code>player.directionalCollision(brick) //returns a direction/false</code>
